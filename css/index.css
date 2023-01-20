@@ -16,16 +16,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 85vw;
+  width: 90vw;
   max-width: 500px;
   height: 250px;
   object-fit: cover;
   object-position: center;
   transition: all 0.2s;
-}
-
-.flow-logo:hover {
-  box-shadow: 0 0 20px #AA0044;
 }
 
 .conteiner-rede {
