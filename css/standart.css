@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'codec-regular';
+  color: white;
+  background: #101728;
+}
+
+* a {
+  text-decoration: none;
+  color: white;
+}

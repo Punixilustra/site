@@ -1,0 +1,109 @@
+.flow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.conteiner-flowlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flow-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85vw;
+  max-width: 500px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+  transition: all 0.2s;
+}
+
+.flow-logo:hover {
+  box-shadow: 0 0 20px #AA0044;
+}
+
+.conteiner-rede {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  max-width: 700px;
+  height: 90px;
+  margin-bottom: 20px;
+  border-radius: 100px;
+  transition: all 0.2s;
+}
+
+#behance {
+  border: solid 1px #1C6FF9;
+}
+
+#behance:hover {
+  box-shadow: 0 0 20px #1C6FF9;
+}
+
+#instagram {
+  border: solid 1px #F52E58;
+}
+
+#instagram:hover {
+  box-shadow: 0 0 20px #F52E58;
+}
+
+#email {
+  border: solid 1px #FF1616;
+}
+
+#email:hover {
+  box-shadow: 0 0 20px #FF1616;
+}
+
+
+.icon-rede {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  margin-left: 10px;
+  border-radius: 100px;
+}
+
+.conteiner-texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.titulo {
+  font-size: 1.7em;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.descrição {
+  color: gainsboro;
+  width: 100%;
+  text-align: center;
+}
+
+.empty {
+  width: 72px;
+  height: 72px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width:425px) {
+  .empty {
+    display: none;
+  }
+}
