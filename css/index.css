@@ -29,8 +29,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: auto;
-  max-width: 700px;
+  width: 150px;
   height: auto;
   border-radius: 15px;
   margin: 0 10px 0 10px;
@@ -88,16 +87,9 @@
 
 .titulo {
   font-size: 1.7em;
-  font-weight: bold;
   width: 100%;
   text-align: center;
   margin: 0 10px 10px 10px;
-}
-
-.descrição {
-  color: gainsboro;
-  width: 100%;
-  text-align: center;
 }
 
 #portfolio {
