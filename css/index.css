@@ -29,7 +29,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: calc(33vw - 30px);
+  width: calc(100% - 30px);
   max-width: 220px;
   height: auto;
   border-radius: 15px;
@@ -67,6 +67,7 @@
   justify-content: center;
   align-items: center;
   width: calc(100% - 20px);
+  max-width: 70px;
   border-radius: 100px;
   margin: 10px 0 10px 0;
 }
@@ -87,7 +88,7 @@
 }
 
 .titulo {
-  font-size: min(1.3em, 4vw);
+  font-size: min(1.2em, 3.5vw);
   font-weight: bold;
   width: 100%;
   text-align: center;
