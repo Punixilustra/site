@@ -29,11 +29,10 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 90vw;
+  width: auto;
   max-width: 700px;
   height: auto;
   margin-bottom: 20px;
-  border-radius: 100px;
   transition: all 0.2s;
 }
 
@@ -67,8 +66,14 @@
   justify-content: center;
   align-items: center;
   width: 70px;
-  margin-left: 10px;
   border-radius: 100px;
+}
+
+.conteiner-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .conteiner-texto {
