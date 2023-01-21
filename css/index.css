@@ -29,7 +29,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 150px;
+  width: calc(33vw - 30px);
   height: auto;
   border-radius: 15px;
   margin: 0 10px 0 10px;
@@ -65,9 +65,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70px;
+  width: calc(100% - 20px);
+  max-width: 220px;
   border-radius: 100px;
-  margin-top: 10px;
+  margin: 10px 0 10px 0;
 }
 
 .conteiner-links {
@@ -86,7 +87,7 @@
 }
 
 .titulo {
-  font-size: 1.7em;
+  font-size: min(1.4em, 8vw);
   width: 100%;
   text-align: center;
   margin: 0 10px 10px 10px;
