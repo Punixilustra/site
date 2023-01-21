@@ -30,6 +30,7 @@
   justify-content: center;
   flex-direction: column;
   width: calc(33vw - 30px);
+  max-width: 220px;
   height: auto;
   border-radius: 15px;
   margin: 0 10px 0 10px;
@@ -66,7 +67,6 @@
   justify-content: center;
   align-items: center;
   width: calc(100% - 20px);
-  max-width: 220px;
   border-radius: 100px;
   margin: 10px 0 10px 0;
 }
@@ -87,15 +87,9 @@
 }
 
 .titulo {
-  font-size: min(1.4em, 8vw);
+  font-size: min(1.3em, 4vw);
+  font-weight: bold;
   width: 100%;
   text-align: center;
   margin: 0 10px 10px 10px;
-}
-
-#portfolio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
