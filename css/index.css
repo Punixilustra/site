@@ -42,7 +42,7 @@
 }
 
 #behance:hover {
-  box-shadow: 0 0 20px #1C6FF9;
+  box-shadow: 8px 8px #1C6FF9;
 }
 
 #instagram {
@@ -50,7 +50,7 @@
 }
 
 #instagram:hover {
-  box-shadow: 0 0 20px #F52E58;
+  box-shadow: 8px 8px #F52E58;
 }
 
 #email {
@@ -58,7 +58,7 @@
 }
 
 #email:hover {
-  box-shadow: 0 0 20px #FF1616;
+  box-shadow: 8px 8px #FF1616;
 }
 
 
