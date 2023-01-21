@@ -32,7 +32,8 @@
   width: auto;
   max-width: 700px;
   height: auto;
-  margin-bottom: 20px;
+  border-radius: 15px;
+  margin: 0 10px 0 10px;
   transition: all 0.2s;
 }
 
@@ -67,6 +68,7 @@
   align-items: center;
   width: 70px;
   border-radius: 100px;
+  margin-top: 10px;
 }
 
 .conteiner-links {
@@ -89,11 +91,18 @@
   font-weight: bold;
   width: 100%;
   text-align: center;
-  margin-bottom: 5px;
+  margin: 0 10px 10px 10px;
 }
 
 .descrição {
   color: gainsboro;
   width: 100%;
   text-align: center;
+}
+
+#portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
