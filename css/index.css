@@ -1,5 +1,7 @@
 body {
   background-image: url(/site/imgs/fundo.png);
+  object-fit: cover;
+  object-position: center;
 }
 
 .flow {
